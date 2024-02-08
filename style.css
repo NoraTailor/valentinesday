@@ -3,7 +3,7 @@ body {
 	background: #111;
 	color: red;
 	text-align: center;
-	height: 1000vh;
+	height: 80vh;
 }
 
 .question-container {
@@ -12,9 +12,12 @@ body {
 }
 
 h2 {
-	font-size: 2, 5rem;
+	font-size: 3rem;
 	color: black;
-	background-color: white;
+	background-color: #e19f9f;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 3rem;
 }
 
 button {
