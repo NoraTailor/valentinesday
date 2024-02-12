@@ -5,6 +5,11 @@ body {
 	text-align: center;
 	height: 80vh;
 }
+p {
+	margin-top: -0.1rem;
+	margin-bottom: -0.8rem;
+	color: rgb(206, 38, 130);
+}
 
 .question-container {
 	margin-top: 3rem;

@@ -2,9 +2,20 @@ var ys = document.getElementById('yes');
 var no = document.getElementById('no');
 var yesContainer = document.querySelector('.container');
 var body = document.querySelector('body');
+var datum = document.querySelector('p');
 
 if (ys) {
 	ys.addEventListener('click', saidYes);
+	countFrom = 'Oct 26, 2023 12:00:00';
+
+	var now = new Date();
+	var countFrom = new Date(countFrom);
+	var timeDifference = now - countFrom;
+	var secondsInADay = 60 * 60 * 1000 * 24;
+	var days = Math.floor(
+		(timeDifference / secondsInADay) * 1
+	);
+	datum.innerText = days;
 }
 
 if (no) {
